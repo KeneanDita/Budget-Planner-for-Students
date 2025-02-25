@@ -27,7 +27,7 @@ public class IncomeTable extends JPanel {
         titleLabel.setForeground(new Color(34, 139, 34));
         add(titleLabel, BorderLayout.NORTH);
 
-        tableModel = new DefaultTableModel(new String[]{"Amount ($)", "Source", "Date"}, 0);
+        tableModel = new DefaultTableModel(new String[]{"Amount (Br.)", "Source", "Date"}, 0);
         table = new JTable(tableModel);
         styleTable();
 

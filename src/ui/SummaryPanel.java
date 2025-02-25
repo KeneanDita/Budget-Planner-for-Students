@@ -17,9 +17,9 @@ public class SummaryPanel extends JPanel {
 
         Font labelFont = new Font("SansSerif", Font.BOLD, 14);
 
-        totalIncomeLabel = createStyledLabel("Total Income: $0.00", new Color(34, 177, 76), labelFont);
-        totalExpensesLabel = createStyledLabel("Total Expenses: $0.00", new Color(200, 0, 0), labelFont);
-        balanceLabel = createStyledLabel("Remaining Balance: $0.00", new Color(0, 102, 204), labelFont);
+        totalIncomeLabel = createStyledLabel("Total Income: Br 0.00", new Color(34, 177, 76), labelFont);
+        totalExpensesLabel = createStyledLabel("Total Expenses: Br 0.00", new Color(200, 0, 0), labelFont);
+        balanceLabel = createStyledLabel("Remaining Balance: Br 0.00", new Color(0, 102, 204), labelFont);
 
         showTotalsButton = new JButton("💰 Totals");
         showTotalsButton.setBackground(new Color(60, 120, 200));
@@ -47,9 +47,9 @@ public class SummaryPanel extends JPanel {
         double totalExpenses = DataManager.getTotalExpenses();
         double balance = totalIncome - totalExpenses;
 
-        totalIncomeLabel.setText("Total Income: $" + totalIncome);
-        totalExpensesLabel.setText("Total Expenses: $" + totalExpenses);
-        balanceLabel.setText("Remaining Balance: $" + balance);
+        totalIncomeLabel.setText("Total Income: " + totalIncome + " Br.");
+        totalExpensesLabel.setText("Total Expenses: " + totalExpenses + " Br.");
+        balanceLabel.setText("Remaining Balance: " + balance + " Br.");
     }
 
     public void refreshSummary() {

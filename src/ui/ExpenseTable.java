@@ -27,7 +27,7 @@ public class ExpenseTable extends JPanel {
         titleLabel.setForeground(new Color(178, 34, 34));
         add(titleLabel, BorderLayout.NORTH);
 
-        tableModel = new DefaultTableModel(new String[]{"Amount ($)", "Category", "Description", "Date"}, 0);
+        tableModel = new DefaultTableModel(new String[]{"Amount (Br.)", "Category", "Description", "Date"}, 0);
         table = new JTable(tableModel);
         styleTable();
 
