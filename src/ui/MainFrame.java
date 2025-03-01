@@ -9,7 +9,7 @@ public class MainFrame extends JFrame {
         setTitle("Budget Tracker");
         setSize(850, 500);
         setLayout(new BorderLayout());
-        getContentPane().setBackground(new Color(240, 240, 240)); // Light Gray
+        getContentPane().setBackground(new Color(240, 240, 240));
 
         Font globalFont = new Font("SansSerif", Font.PLAIN, 14);
         UIManager.put("Label.font", globalFont);
@@ -33,7 +33,7 @@ public class MainFrame extends JFrame {
         addIncomeBtn.addActionListener(e -> new IncomeForm(incomeTable, summaryPanel));
 
         JButton clearAllButton = new JButton("Clear All Data");
-        clearAllButton.setBackground(new Color(220, 20, 60));  // Crimson Red
+        clearAllButton.setBackground(new Color(220, 20, 60));
         clearAllButton.setForeground(Color.WHITE);
         clearAllButton.setFocusPainted(false);
         clearAllButton.setBorder(BorderFactory.createEmptyBorder(8, 15, 8, 15));
@@ -68,7 +68,7 @@ public class MainFrame extends JFrame {
 
 
 
-        buttonPanel.setBackground(new Color(230, 230, 230)); // Light Gray
+        buttonPanel.setBackground(new Color(230, 230, 230));
         buttonPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         add(summaryPanel, BorderLayout.NORTH);

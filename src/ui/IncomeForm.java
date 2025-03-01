@@ -21,7 +21,7 @@ public class IncomeForm extends JFrame {
         setSize(350, 220);
         setLayout(new GridBagLayout());
         setResizable(false);
-        setLocationRelativeTo(null); // Center the form
+        setLocationRelativeTo(null);
 
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(8, 10, 8, 10);
