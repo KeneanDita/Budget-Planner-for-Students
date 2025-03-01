@@ -17,13 +17,10 @@ Welcome to the **Budget Planner for Students**! This Java-based application help
 ## 🛠 Installation & Setup
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/Budget-Planner.git
+   git clone https://github.com/KeneanDita/Budget-Planner-for-Students
    ```
 2. **Open the project in your favorite Java IDE** (IntelliJ, Eclipse, or NetBeans).
 3. **Run the `ExpenseTrackerApp.java` file** to launch the application.
-
-## 🎥 Demo
-*(Insert a screenshot or GIF of your application here!)*
 
 ## 📌 How to Use
 1. **Add Income** ➕ – Enter source and amount, then click 'Add'.
